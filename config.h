@@ -27,6 +27,11 @@ char *vtiden = "\033[?6c";
 static float cwscale = 1.0;
 static float chscale = 1.0;
 
+const int boxdraw = 1;
+const int boxdraw_bold = 1;
+const int boxdraw_braille = 0;
+
+
 /*
  * word delimiter string
  *
