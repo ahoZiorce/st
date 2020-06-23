@@ -31,6 +31,7 @@ const int boxdraw = 1;
 const int boxdraw_bold = 1;
 const int boxdraw_braille = 0;
 
+float alpha = 0.95;
 
 /*
  * word delimiter string
@@ -190,6 +191,7 @@ ResourcePref resources[] = {
 		{ "borderpx",     INTEGER, &borderpx },
 		{ "cwscale",      FLOAT,   &cwscale },
 		{ "chscale",      FLOAT,   &chscale },
+		{ "alpha",	  FLOAT,   &alpha }
 };
 
 /*
